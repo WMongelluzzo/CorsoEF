@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\FatturarioContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Fattura.cs" />
     <Compile Include="Models\VoceFattura.cs" />
     <Compile Include="Program.cs" />
