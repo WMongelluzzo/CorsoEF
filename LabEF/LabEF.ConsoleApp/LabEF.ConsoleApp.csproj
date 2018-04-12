@@ -50,6 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\FatturarioContext.cs" />
+    <Compile Include="Migrations\201804121426500_FirstMigration.cs" />
+    <Compile Include="Migrations\201804121426500_FirstMigration.Designer.cs">
+      <DependentUpon>201804121426500_FirstMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Fattura.cs" />
     <Compile Include="Models\VoceFattura.cs" />
@@ -59,6 +63,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201804121426500_FirstMigration.resx">
+      <DependentUpon>201804121426500_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
