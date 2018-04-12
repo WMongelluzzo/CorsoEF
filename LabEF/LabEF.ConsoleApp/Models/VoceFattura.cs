@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace LabEF.ConsoleApp.Models
 {
-    class VoceFattura
+    public class VoceFattura
     {
+        public int VoceFatturaId { get; set; }
+
+        public int Qta { get; set; }
+
+        public string Descrizione { get; set; }
+
+        public double Imponibile { get; set; }
     }
 }
