@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\FatturarioContext.cs" />
     <Compile Include="Models\Fattura.cs" />
     <Compile Include="Models\VoceFattura.cs" />
     <Compile Include="Program.cs" />
